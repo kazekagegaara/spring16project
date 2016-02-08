@@ -1,0 +1,14 @@
+language: java
+jdk: oraclejdk8
+
+script:
+    - ant build-if-needed
+    - ant checkbuild
+    - clean
+    - clean-dist
+    - compile
+    - dist
+    - dist-full
+    - init
+    - package
+    - run
