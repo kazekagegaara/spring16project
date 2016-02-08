@@ -4,11 +4,11 @@ jdk: oraclejdk8
 script:
     - ant build-if-needed
     - ant checkbuild
-    - clean
-    - clean-dist
-    - compile
-    - dist
-    - dist-full
-    - init
-    - package
-    - run
+    - ant clean
+    - ant clean-dist
+    - ant compile
+    - ant dist
+    - ant dist-full
+    - ant init
+    - ant package
+    - ant run
