@@ -11,4 +11,3 @@ script:
     - ant dist-full
     - ant init
     - ant package
-    - ant run
